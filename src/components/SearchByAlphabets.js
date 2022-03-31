@@ -20,7 +20,8 @@ export function SearchByAlphabets () {
     const handleChange =({target}) => setAlphabet(target.value)
 
    return(
-       <div>
+       <div className="background1">
+           <h1>Search Noble Prize Winners Alphabetical-wise</h1>
           <input 
             type="text"
             placeholder = "Type any letter here"
@@ -28,7 +29,7 @@ export function SearchByAlphabets () {
             onChange={handleChange}
           />
           <div>
-              <table>
+              <table className="decor2">
                   <tr>
                       <td>
                   {nameList.map(winner => <tr><td>{winner}</td></tr>)}

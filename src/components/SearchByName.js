@@ -27,21 +27,23 @@ export function SearchByName(props) {
     const handleChange = ({target}) => setName(target.value);
 
     return (
-        <div>
+        <div className="background">
+            <h1>Search Noble Prize Winners by Name</h1>
         <input
           type='text'
           placeholder="search by name"
           onChange={handleChange}
           value={name}
         />
-        <div>
+        <div className="decor">
               <p>Id : {id}</p>
               <p>FirstName : {firstName}</p>
               <p>LastName : {lastName}</p>
               <p>Motivation : {motivation}</p>
               <p>Share : {share}</p>
               <p>Category : {category}</p>
-              <p>Year : {year}</p>    
+              <p>Year : {year}</p>   
+
         </div>
         </div>
     );

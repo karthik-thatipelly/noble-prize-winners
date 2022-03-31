@@ -22,7 +22,8 @@ export function SearchByYearAndCategory (props) {
    
 
 return (
-    <div>
+    <div className="background">
+        <h1>Search Noble Prize winners by year and category</h1>
     <input 
       type="number"
       placeholder="Type Year"
@@ -35,7 +36,7 @@ return (
       value={category}
       onChange={handleChangeCategory}
     />
-    <div>
+    <div className="decor">
         {list.map(winner => <p>{winner}</p>)}
     </div>
     </div>

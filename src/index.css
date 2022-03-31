@@ -12,4 +12,38 @@ code {
     monospace;
 }
 
+input{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.background{
+  background-color: aliceblue;
+  padding:20px;
+}
+.background1 {
+  background-color:rgb(173, 181, 187);
+  padding:20px;
+}
+
+.decor p {
+  padding: 5px;
+  background-color: rgb(185, 182, 182);
+  width: 200px;
+  margin: 5px auto;
+  
+}
+
+.decor1 p {
+  padding:5px;
+  background-color: rgb(212, 215, 218);
+  width:200px;
+  margin:5px auto
+}
+
+.decor2 {
+  margin: 5px auto;
+}
+
 
