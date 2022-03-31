@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Search Noble Prize winners from JSON file
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Problem statement:
 
-## Available Scripts
+Given JSON Dataset of Nobel Prize winners, create a program which will load the information from the JSON file (see [prize.json] file provided) and allow a user to:
 
-In the project directory, you can run:
 
-### `npm start`
+	1. Search a Nobel prize winner by name
+	2. Find out Nobel prize winner in a year input by him
+	3. Search Prize winner based on the year and category (Peace/Chemistry/Physics etc...)
+	4. Show a list of all Winners in Alphabetical order (With year and category against the name)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `Note: To notice the process that is undergoing , input element is provided individually for each assigned task in the problem statement, though in reality it doesn't exist this way. Anyways code snippet of the input elements that are in use in modern websites would be added here soon. `
 
-### `npm test`
+## Instructions to use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Search by Name
+Start typing the names either firstname or lastname/surname, the results would be shown below.
 
-### `npm run build`
+Note: Info is Case sensitive. Make sure 1st letter is capital 
+                       (ex: Arthur)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Search by Year
+Type random Year between 1943 and 2018. List Prize recievers would be displayed irrespective of category
+                      (ex: year=2017)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Search by both year and category
+Type random years between 1943 and 2018 & categories ( physics, chemistry, literature, economics, medicine, peace). List of Prize winners would be displayed which satisfies both user input values.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Note: Info is case sensitive. strictly use small case letters.
+                     (ex: year=2017 & category=physics)
 
-### `npm run eject`
+### Search winners alphabetical-wise
+Type any capital letters from A-Z. It displays all noble prize winners irrespective of year and category. (only first names)
+                   (ex: A)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
