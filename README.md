@@ -13,6 +13,12 @@ Given JSON Dataset of Nobel Prize winners, create a program which will load the 
 
 ### `Note: To notice the process that is undergoing , input element is provided individually for each assigned task in the problem statement, though in reality it doesn't exist this way. Anyways code snippet of the input elements that are in use in modern websites would be added here soon. `
 
+## Setup 
+
+1. Use VScode text editor.
+2. Clone the code from github and save it in local repo with a suitable name and open the folder
+2. open with live server.
+
 ## Instructions to use
 
 ### Search by Name
