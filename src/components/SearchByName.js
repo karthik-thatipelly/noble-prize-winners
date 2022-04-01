@@ -29,6 +29,7 @@ export function SearchByName(props) {
     return (
         <div className="background">
             <h1>Search Noble Prize Winners by Name</h1>
+            <p><em>[Tip: Type year in the second block to get names of winners and type one of them here(case sensitive).]</em></p>
         <input
           type='text'
           placeholder="search by name"

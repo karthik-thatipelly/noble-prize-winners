@@ -24,6 +24,7 @@ export function SearchByYearAndCategory (props) {
 return (
     <div className="background">
         <h1>Search Noble Prize winners by year and category</h1>
+        <p><em>[Tip: Type year between 1943 and 2018 | choose category among physics, medicine, economics, literature, peace, chemistry (case-sensitive)]</em></p>
     <input 
       type="number"
       placeholder="Type Year"

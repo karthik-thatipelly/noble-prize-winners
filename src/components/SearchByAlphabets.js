@@ -22,6 +22,7 @@ export function SearchByAlphabets () {
    return(
        <div className="background1">
            <h1>Search Noble Prize Winners Alphabetical-wise</h1>
+           <p><em>[Tip: Type any letter between A-Z (case sensitive)]</em></p>
           <input 
             type="text"
             placeholder = "Type any letter here"

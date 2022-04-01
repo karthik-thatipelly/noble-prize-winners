@@ -21,6 +21,7 @@ export function SearchByYear(props) {
     return (
         <div className="background1">
             <h1>Search Noble Prize Winners by Year</h1>
+            <p><em>[Tip: Type any year between 1943 and 2018]</em></p>
         <input
           type='number'
           placeholder="search by year"
