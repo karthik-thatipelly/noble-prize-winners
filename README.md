@@ -17,7 +17,7 @@ Given JSON Dataset of Nobel Prize winners, create a program which will load the 
 
 1. Use VScode text editor.
 2. Clone the code from github and save it in local repo with a suitable name and open the folder
-2. open with live server.
+2. open with React live server (using terminal).
 
 ## Instructions to use
 
