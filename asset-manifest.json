@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/noble-prize-winners/static/css/main.fcd818b6.css",
-    "main.js": "/noble-prize-winners/static/js/main.4bf99289.js",
+    "main.js": "/noble-prize-winners/static/js/main.069bf0cd.js",
     "static/js/787.0ce8ca72.chunk.js": "/noble-prize-winners/static/js/787.0ce8ca72.chunk.js",
     "index.html": "/noble-prize-winners/index.html",
     "main.fcd818b6.css.map": "/noble-prize-winners/static/css/main.fcd818b6.css.map",
-    "main.4bf99289.js.map": "/noble-prize-winners/static/js/main.4bf99289.js.map",
+    "main.069bf0cd.js.map": "/noble-prize-winners/static/js/main.069bf0cd.js.map",
     "787.0ce8ca72.chunk.js.map": "/noble-prize-winners/static/js/787.0ce8ca72.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fcd818b6.css",
-    "static/js/main.4bf99289.js"
+    "static/js/main.069bf0cd.js"
   ]
 }
